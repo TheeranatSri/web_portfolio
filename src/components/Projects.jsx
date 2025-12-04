@@ -14,6 +14,7 @@ const Projects = () => {
             <div className="projects-grid">
                 <div className="project-card">
                     <div className="project-icon">🗺️</div>
+                    <div className="project-company">CJ MORE</div>
                     <h3 className="project-title">Site Feasibility Automation</h3>
                     <p className="project-description">
                         Automated system integrating POI data, population rasters, and satellite imagery
@@ -36,6 +37,7 @@ const Projects = () => {
 
                 <div className="project-card">
                     <div className="project-icon">👥</div>
+                    <div className="project-company">CJ MORE • DATA CAFE</div>
                     <h3 className="project-title">Customer Segmentation</h3>
                     <p className="project-description">
                         Behavioral clustering with automated drift monitoring for 2M+ customers.
@@ -57,6 +59,7 @@ const Projects = () => {
 
                 <div className="project-card">
                     <div className="project-icon">🛒</div>
+                    <div className="project-company">CJ MORE</div>
                     <h3 className="project-title">Product Affinity Analysis</h3>
                     <p className="project-description">
                         RFM-based analysis identifying customer patterns across 10K+ SKUs.

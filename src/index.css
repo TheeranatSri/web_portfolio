@@ -667,6 +667,20 @@ section {
     margin-bottom: 1rem;
 }
 
+.project-company {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--accent-primary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    /* border: 1px solid rgba(0, 255, 136, 0.2); */
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    /* background: rgba(0, 255, 136, 0.05); */
+}
+
 .project-title {
     font-size: 1.8rem;
     font-weight: 700;
