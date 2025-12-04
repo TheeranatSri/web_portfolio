@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <a href="#contact" className="cta-button">
-                    <span style={{ textAlign: "center" }}>Get In Touch</span>
+                    <span >Get In Touch</span>
                 </a>
             </div>
 
