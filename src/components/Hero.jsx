@@ -10,31 +10,30 @@ const Hero = () => {
                     JUI<br />
                     DATA SCIENTIST
                 </h1>
-                <p className="hero-subtitle">Building production systems that scale</p>
+                <p className="hero-subtitle">Turning complex data into business impact</p>
                 <p className="hero-description">
-                    I transform complex data into automated solutions that drive measurable business impact.
-                    Specializing in retail analytics, geospatial ML, and production-ready deployments.
+                    Data Scientist who transforms complex data into automated solutions that drive measurable business impact. Specializing in customer analytics, segmentation systems, and LLM-powered applications.
                 </p>
                 <div className="hero-stats">
                     <div className="stat-item">
-                        <span className="stat-number">5+</span>
+                        <span className="stat-number">4+</span>
                         <span className="stat-label">Years</span>
                     </div>
                     <div className="stat-item">
-                        <span className="stat-number">1500+</span>
-                        <span className="stat-label">Stores</span>
+                        <span className="stat-number">3</span>
+                        <span className="stat-label">Industries</span>
                     </div>
                     <div className="stat-item">
-                        <span className="stat-number">70%</span>
-                        <span className="stat-label">Time Saved</span>
+                        <span className="stat-number">+20%</span>
+                        <span className="stat-label">Engagement</span>
                     </div>
                     <div className="stat-item">
-                        <span className="stat-number">5</span>
-                        <span className="stat-label">Prod Systems</span>
+                        <span className="stat-number">10+</span>
+                        <span className="stat-label">Projects Delivered</span>
                     </div>
                 </div>
                 <a href="#contact" className="cta-button">
-                    <span>Get In Touch</span>
+                    <span style={{ textAlign: "center" }}>Get In Touch</span>
                 </a>
             </div>
 
@@ -45,7 +44,7 @@ const Hero = () => {
                         alt="Jui - Data Scientist"
                         className="profile-image"
                     />
-                    <div className="image-label">Senior Data Scientist</div>
+                    <div className="image-label">Data Scientist</div>
                 </div>
             </div>
         </section>

@@ -24,11 +24,11 @@ const Contact = () => {
                             <div className="contact-icon">📧</div>
                             <div className="contact-text">
                                 <div className="contact-label">Email</div>
-                                <div className="contact-value">jui@example.com</div>
+                                <div className="contact-value">theeranat.sri@gmail.com</div>
                             </div>
                         </a>
 
-                        <a href="https://linkedin.com/in/jui" className="contact-method">
+                        <a href="https://www.linkedin.com/in/theeranat-sringamdee-9a7653107/" className="contact-method">
                             <div className="contact-icon">💼</div>
                             <div className="contact-text">
                                 <div className="contact-label">LinkedIn</div>
@@ -36,17 +36,17 @@ const Contact = () => {
                             </div>
                         </a>
 
-                        <a href="https://github.com/jui" className="contact-method">
+                        {/* <a href="https://github.com/jui" className="contact-method">
                             <div className="contact-icon">💻</div>
                             <div className="contact-text">
                                 <div className="contact-label">GitHub</div>
                                 <div className="contact-value">@jui</div>
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
 
-                <form className="contact-form">
+                {/* <form className="contact-form">
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" placeholder="Your name" />
@@ -65,7 +65,7 @@ const Contact = () => {
                     <button type="submit" className="submit-button">
                         Send Message
                     </button>
-                </form>
+                </form> */}
             </div>
         </section>
     );

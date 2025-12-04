@@ -253,6 +253,7 @@ section {
     max-width: 600px;
     margin-bottom: 3rem;
     line-height: 1.8;
+    text-align: justify;
     opacity: 0;
     animation: slideUp 0.8s 0.6s forwards;
 }
@@ -321,6 +322,7 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-align: center;
     border: 2px solid var(--accent-primary);
     transition: all 0.3s;
     position: relative;
@@ -377,6 +379,98 @@ section {
     font-size: 1.2rem;
     color: var(--text-secondary);
     max-width: 600px;
+}
+
+/* Experience Container - Two Column Layout */
+.experience-container {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 3rem;
+    align-items: start;
+}
+
+/* Experience Sidebar */
+.experience-sidebar {
+    position: sticky;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar-card {
+    background: rgba(0, 255, 136, 0.03);
+    border: 1px solid rgba(0, 255, 136, 0.15);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.sidebar-card:hover {
+    border-color: rgba(0, 255, 136, 0.4);
+    background: rgba(0, 255, 136, 0.05);
+}
+
+.sidebar-stat {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+.sidebar-stat:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sidebar-stat:first-child {
+    padding-top: 0;
+}
+
+.stat-value {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.sidebar-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.sidebar-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sidebar-tag {
+    padding: 0.4rem 0.8rem;
+    background: rgba(0, 255, 136, 0.08);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.sidebar-tag:hover {
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+    transform: translateY(-2px);
 }
 
 /* Timeline */
@@ -929,6 +1023,25 @@ footer {
 
     .hero-stats {
         max-width: 100%;
+    }
+
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .sidebar-card {
+        padding: 1rem;
+    }
+
+    .stat-value {
+        font-size: 2rem;
     }
 }
 
