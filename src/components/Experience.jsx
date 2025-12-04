@@ -13,27 +13,35 @@ const Experience = () => {
 
             <div className="timeline">
                 <div className="timeline-item" style={{ animationDelay: '0.1s' }}>
-                    <div className="timeline-date">2022 — PRESENT</div>
+                    <div className="timeline-date">09/2024 — PRESENT</div>
                     <h3 className="timeline-company">CJ MORE CO., LTD.</h3>
-                    <div className="timeline-role">Senior Data Scientist</div>
+                    <div className="timeline-role">Data Scientist</div>
                     <div className="timeline-project">Site Feasibility Study Automation</div>
-                    <div className="timeline-impact">-70% Survey Time | 1,500+ Stores</div>
+                    <div className="timeline-impact">Automated branch location screening with Docker + Gradio</div>
                 </div>
 
                 <div className="timeline-item" style={{ animationDelay: '0.2s' }}>
-                    <div className="timeline-date">2021 — 2022</div>
-                    <h3 className="timeline-company">24 Solution Group + Data Cafe</h3>
-                    <div className="timeline-role">Data Scientist / Consultant</div>
-                    <div className="timeline-project">End-to-End ML Solutions</div>
-                    <div className="timeline-impact">Customer Segmentation | HR Systems</div>
+                    <div className="timeline-date">01/2023 — 09/2024</div>
+                    <h3 className="timeline-company">DATA CAFE COMPANY LIMITED</h3>
+                    <div className="timeline-role">Data Scientist</div>
+                    <div className="timeline-project">LLM-Powered HR Knowledge System & Meeting Summarization</div>
+                    <div className="timeline-impact">Customer Segmentation | Power BI Dashboards</div>
                 </div>
 
                 <div className="timeline-item" style={{ animationDelay: '0.3s' }}>
-                    <div className="timeline-date">2020 — 2021</div>
-                    <h3 className="timeline-company">Muang Thai Broker</h3>
+                    <div className="timeline-date">07/2022 — 12/2022</div>
+                    <h3 className="timeline-company">24 SOLUTION GROUP (THAILAND)</h3>
                     <div className="timeline-role">Data Analyst</div>
-                    <div className="timeline-project">Recommendation Engine</div>
-                    <div className="timeline-impact">+20% Engagement</div>
+                    <div className="timeline-project">Order Flow Tracking & Data Synchronization</div>
+                    <div className="timeline-impact">Reduced SLA response times | Automated data cleaning</div>
+                </div>
+
+                <div className="timeline-item" style={{ animationDelay: '0.4s' }}>
+                    <div className="timeline-date">06/2020 — 07/2022</div>
+                    <h3 className="timeline-company">MUANG THAI BROKER</h3>
+                    <div className="timeline-role">Data Analyst</div>
+                    <div className="timeline-project">Product Recommendation Model</div>
+                    <div className="timeline-impact">+20% Engagement | Google Looker Dashboards</div>
                 </div>
             </div>
         </section>
